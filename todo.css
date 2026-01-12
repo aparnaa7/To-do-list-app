@@ -1,0 +1,52 @@
+body{
+    background-color: rgb(195, 162, 195);
+    display:flex; 
+    justify-content: center;
+    align-items: center;
+
+}
+h1{
+    display:center;
+}
+
+#container{
+    display:flex;
+      justify-content: space-between;
+    align-items:center;
+margin: 20px 0;
+  max-width: 600px;
+
+}
+#add-btn{
+    cursor:pointer;
+    color:black;
+    background-color: rgb(109, 109, 177);
+    
+}
+
+
+#dlt-btn{
+    cursor:pointer;
+    background-color:pink;
+    color:white;
+    
+}
+
+#task{
+ background-color:rgb(211, 125, 140);
+ color:black;
+ font-style: italic;
+  
+}
+ul{
+ list-style-type: disc;
+  padding-left: 0px;
+
+}
+list{
+
+font-family:cursive;
+color:black;
+font-style: oblique;
+display:flex;
+}
